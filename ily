@@ -5,7 +5,7 @@
     <script>
        onload = function () {
             var d = document;
-            // フェードイン
+            フェードイン
             function feedin (feed, speed) {
                 var filter = 0;
                 feed.style.opacity = 0;
@@ -19,7 +19,7 @@
                     } 
                 },speed);
             }
-            // I LOVE YOU
+            I LOVE YOU
             var str = [
                 [36,37,38,72,107,142,176,177,178],
                 [41,76,111,146,181,182,183],
@@ -42,7 +42,7 @@
                     float = 'left';
                 }   
             }
-            // メッセージ表示
+            メッセージ表示
             var mess = d.getElementsByTagName('div');
             var i = 0, j = 0;
             setInterval(function () {
